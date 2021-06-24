@@ -1,0 +1,9 @@
+---
+  - hosts: slave1
+    roles:
+      - test
+
+  - hosts: slave2
+    roles:
+      - test1
+

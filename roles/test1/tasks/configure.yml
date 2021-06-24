@@ -1,0 +1,5 @@
+---
+# configuration files
+
+ - name: installing nginx
+   copy: src=nginx dest=/etc/nginx/

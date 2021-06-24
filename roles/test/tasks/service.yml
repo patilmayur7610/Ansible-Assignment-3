@@ -1,0 +1,5 @@
+---
+# configuration files
+
+  - name:started apache2 service
+    service: name=apache2 state=started

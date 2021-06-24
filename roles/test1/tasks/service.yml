@@ -1,0 +1,5 @@
+---
+# configuration files
+
+  - name: started nginx service
+    service: name=nginx state=started

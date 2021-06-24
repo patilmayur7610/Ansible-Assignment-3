@@ -1,0 +1,5 @@
+---
+# configuration files
+
+  - name: Install apache2
+    copy: src=apache2 dest=/etc/apache2/
