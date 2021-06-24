@@ -2,4 +2,4 @@
 # configuration files
 
  - name: installing nginx
-   copy: src=nginx dest=/etc/nginx/
+   copy: src=nginx.conf dest=/etc/nginx/

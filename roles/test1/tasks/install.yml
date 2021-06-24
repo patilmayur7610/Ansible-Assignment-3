@@ -1,4 +1,4 @@
 ---
 
   - name: installing nginx
-     apt: name=nginx state=latest
+     apt: name=nginx update_cache=yes state=latest

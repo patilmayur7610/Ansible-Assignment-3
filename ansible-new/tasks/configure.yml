@@ -2,9 +2,9 @@
 # configuration files
 
   - name: Install apache2
-    copy: src=apache2 dest=/etc/apache2/
+    copy: src=apache2.conf dest=/etc/apache2/
 
   - name: installing nginx
-    copy: src=nginx dest=/etc/nginx/
+    copy: src=nginx.conf dest=/etc/nginx/
 
 
