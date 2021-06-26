@@ -1,4 +1,3 @@
----
-
-  - name: installing nginx
-     apt: name=nginx update_cache=yes state=latest
+--- 
+  - name: Install nginx service
+    apt: name=nginx state=latest

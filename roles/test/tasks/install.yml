@@ -1,4 +1,3 @@
----
-
-  - name: Install apache2
-    apt: name=apache2 update_cache=yes state=latest
+--- 
+  - name: Install apache service
+    apt: name=apache2 state=latest

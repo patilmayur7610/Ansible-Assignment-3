@@ -1,3 +1,4 @@
 ---
-# tasks file for test1
-
+  - include: install.yml
+  - include: config.yml
+  - include: service.yml
